@@ -59,11 +59,11 @@ Cross browser testing for JSONEditor is generously provided by <a href="https://
 
 with npm (recommended):
 
-    npm install jsoneditor
+    npm install jsoneditor-yaml
 
 with bower:
 
-    bower install jsoneditor
+    bower install jsoneditor-yaml
 
 
 #### More
@@ -82,8 +82,8 @@ There is a directive available for using JSONEditor in Angular.js:
     <!-- when using the mode "code", it's important to specify charset utf-8 -->
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 
-    <link href="jsoneditor/dist/jsoneditor.min.css" rel="stylesheet" type="text/css">
-    <script src="jsoneditor/dist/jsoneditor.min.js"></script>
+    <link href="jsoneditor-yaml/dist/jsoneditor.min.css" rel="stylesheet" type="text/css">
+    <script src="jsoneditor-yaml/dist/jsoneditor.min.js"></script>
 </head>
 <body>
     <div id="jsoneditor" style="width: 400px; height: 400px;"></div>
