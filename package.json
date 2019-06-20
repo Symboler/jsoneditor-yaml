@@ -1,0 +1,40 @@
+{
+  "name": "jsoneditor-yaml",
+  "version": "1.0.2",
+  "main": "./index",
+  "description": "A web-based tool to view, edit, format, and validate JSON or YAML",
+  "tags": [
+    "json",
+    "editor",
+    "viewer",
+    "formatter",
+    "yaml"
+  ],
+  "author": "symboler",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "ajv": "5.2.0",
+    "brace": "0.10.0",
+    "javascript-natural-sort": "0.7.1",
+    "yaml": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean-css": "3.4.2",
+    "gulp-concat-css": "2.3.0",
+    "gulp-shell": "0.6.3",
+    "gulp-util": "3.0.8",
+    "json-loader": "0.5.4",
+    "mkdirp": "0.5.1",
+    "mocha": "3.4.2",
+    "uglify-js": "2.8.22",
+    "webpack": "1.13.1"
+  },
+  "_from": "jsoneditor@5.9.5",
+  "_resolved": "http://registry.npm.taobao.org/jsoneditor/download/jsoneditor-5.9.5.tgz"
+}
